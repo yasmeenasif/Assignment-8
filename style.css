@@ -1,0 +1,31 @@
+body {
+  background-color: aliceblue;
+}
+
+.card {
+  background-image: url("https://i.pinimg.com/736x/7c/50/80/7c5080c8527649150eae5fa907062bb7.jpg");
+  position:relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 15px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.checkbox{
+  row-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
