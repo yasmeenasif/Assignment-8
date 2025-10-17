@@ -1,14 +1,14 @@
 body {
-  background-color: aliceblue;
+   background-image: url("https://i.pinimg.com/736x/90/12/72/9012729855684629eaf2f9916ea14cae.jpg");
+  position:relative;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .card {
-  background-image: url("https://i.pinimg.com/736x/7c/50/80/7c5080c8527649150eae5fa907062bb7.jpg");
-  position:relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-radius: 15px;
+  background-color: #f0f8ff;
+   border-radius: 15px;
   max-width: 500px;
   margin: auto;
 }
@@ -24,8 +24,3 @@ body {
   color: gray;
 }
 
-.checkbox{
-  row-gap: 20px;
-  justify-content: space-between;
-  align-items: center;
-}
