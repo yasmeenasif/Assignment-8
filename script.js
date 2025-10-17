@@ -67,7 +67,7 @@ addTaskBtn.addEventListener("click", () => {
 });
 
 // Travel Check List
-const tasks = ["Hotel Booking", "Sites to Visit", "Air Tickets", "Travel Documents", "First Aid Kid", "Clothings", "Toiletries", "Tech Essentials", "Reusable Water Bottles"];
+const tasks = ["Hotel Booking", "Sites to Visit", "Air Tickets", "Travel Documents", "First Aid Kit", "Clothings", "Toiletries", "Tech Essentials", "Reusable Water Bottles"];
 const taskList1 = document.getElementById("taskList1");
 
 tasks.forEach(taskText => {
